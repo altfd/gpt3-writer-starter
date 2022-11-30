@@ -17,10 +17,12 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>sup, insert your headline here</h1>
+            <h1>idea generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
+            <h2>
+              type in a topic of your choice and we'll generate ideas for you
+            </h2>
           </div>
         </div>
         <div className="prompt-container">
