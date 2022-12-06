@@ -24,7 +24,7 @@ const Home = () => {
     const { output } = data;
     console.log("OpenAI replied...", output.text);
 
-    setApitOutput("${output.text}");
+    setApiOutput("${output.text}");
     setIsGenerating(false);
   };
 
@@ -56,7 +56,7 @@ const Home = () => {
             onChange={onUserChangedText}
           />
           <div className="prompt-buttons">
-            <a className="generate-button" onClick={null}>
+            <a className="generate-button" onClick={callGenerateEndpoint}>
               <div className="generate">
                 <p>Generate</p>
               </div>
